@@ -1,0 +1,70 @@
+.App {
+  text-align: center;
+  background: url('https://thumbs.dreamstime.com/b/pokemon-silhouette-background-vector-cartoon-symbol-art-icon-play-go-sign-concept-ball-pokeball-shape-pokemon-silhouette-142907703.jpg');
+  position: fixed;
+  min-width: 100%;
+  min-height: 100%;
+  background-size: cover;
+  background-position: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+button {
+  font-size: calc(10px + 2vmin);
+}
+
+.pokemon-card {
+  border: none;
+  width: 350px;
+  height: 400px;
+  box-shadow: 20px 20px 20px rgba(0, 0, 0, 3);
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 8rem;
+  border-radius: 2rem;
+  background: whitesmoke;
+}
+
+.pokemon-card img {
+  object-fit: cover;  
+}
+
+.pokemon-card button{
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+}
